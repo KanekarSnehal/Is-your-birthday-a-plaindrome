@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    padding: 5rem;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: aqua;
+    margin: auto;
+}
+
+#button{
+    
+    background-color: black;
+    color: aqua;
+    border: 100%;
+    border-color: aqua;
+    font-size: large;
+    padding:0.7rem 1rem;
+    margin: auto;
+    display: block;
+
+    
+}
+
+#birthdate-input
+{
+    
+    border: 100%;
+    border-color: aqua;
+    padding: 0.6rem;
+    margin: 1rem auto;
+    background-color: gray;
+    color: rgb(54, 233, 233);
+    text-align: center;
+    font-size: large;
+    
+}
+
+#output
+{
+    color: blue;
+    font-size: x-large;
+}
+
+#error-output
+{
+    color: red;
+    font-size: x-large;
+}
+
+#input-label
+{
+    padding: 1rem;
+}
