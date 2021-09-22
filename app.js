@@ -21,14 +21,14 @@ function clickHandler() {
         var checkPalindrome = checkPalindromeForAllDateFormats(date);
 
         if (checkPalindrome) {
-            output.innerText = "processing....";
+            output.innerText = "processing....⏳";
             setTimeout(function () {
                 output.innerText = "Yay!! your birthday is a palindrome!! 🎉🎉";
             }, 3000);
         } else {
             var [ctr, nextDate] = getNextPalindromeDate(date);
 
-            output.innerText = "processing....";
+            output.innerText = "processing....⏳";
             setTimeout(function () {
                 output.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${ctr} days! 💔`;
             }, 2000)
